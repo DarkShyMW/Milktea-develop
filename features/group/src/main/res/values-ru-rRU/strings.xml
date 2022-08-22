@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Отменить</string>
+    <string name="save">Сохранить</string>
+    <string name="group_name">Имя группы</string>
+    <string name="create_group">Создать группу</string>
+    <string name="edit_group">Редактировать группу</string>
+    <string name="groups">Группы</string>
+</resources>

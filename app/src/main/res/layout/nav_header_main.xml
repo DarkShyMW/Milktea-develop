@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+        <variable
+                name="accountViewModel"
+                type="jp.panta.misskeyandroidclient.ui.account.viewmodel.AccountViewModel" />
+    </data>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="@android:color/black">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                headerImageUrl="@{accountViewModel.user.bannerUrl}"
+                />
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/nav_header_height"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:user="@{accountViewModel.user}"
+                app:mainNameView="@{mainName}"
+                app:subNameView="@{subName}"
+
+                >
+
+
+            <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:srcCompat="@mipmap/ic_launcher_round"
+                    android:id="@+id/imageView"
+                    app:circleIcon="@{accountViewModel.user.avatarUrl}"
+                    android:layout_gravity="start"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="20dp"
+                    android:onClick="@{()-> accountViewModel.showProfile(accountViewModel.currentAccount)}"
+                    tools:ignore="ContentDescription" />
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/ic_menu_black_24dp"
+                    android:onClick="@{() -> accountViewModel.showSwitchDialog() }"
+                    tools:ignore="ContentDescription" />
+
+
+            <TextView
+                    android:id="@+id/mainName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    tools:text="mainName"
+                    />
+
+            <TextView
+                    android:id="@+id/subName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mainName"
+                    android:layout_marginTop="1dp"
+
+                    tools:text="name" />
+
+            <TextView
+                    android:id="@+id/following_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/subName"
+                    tools:text="114"
+                    android:text="@{ Integer.toString(accountViewModel.user.followingCount) }"
+                    android:layout_marginEnd="3dp"
+                    android:onClick="@{()-> accountViewModel.showFollowings(accountViewModel.user.id) }"
+                    />
+
+            <TextView
+                    android:id="@+id/following"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/following_count"
+                    android:text="@string/following"
+                    android:layout_below="@id/subName"
+
+                    android:layout_marginEnd="12dp"
+                    android:onClick="@{()-> accountViewModel.showFollowings(accountViewModel.user.id) }"
+                    />
+            <TextView
+                    android:id="@+id/follower_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/subName"
+                    android:layout_toEndOf="@id/following"
+                    tools:text="514"
+                    android:layout_marginEnd="3dp"
+                    android:text="@{ Integer.toString(accountViewModel.user.followersCount) }"
+                    android:onClick="@{()-> accountViewModel.showFollowers(accountViewModel.user.id) }"
+                    />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/follower_count"
+                    android:layout_below="@id/subName"
+                    android:text="@string/follower"
+                    android:onClick="@{()-> accountViewModel.showFollowers(accountViewModel.user.id) }"
+                    />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>
+

@@ -1,0 +1,393 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BronyFurry</string>
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+    <string name="nav_header_title">BF Studio</string>
+    <string name="nav_header_subtitle">admin@bronyfurry.com</string>
+    <string name="nav_header_desc">Заголовок описания</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайдшоу</string>
+    <string name="menu_tools">Инструменты</string>
+    <string name="share">Поделиться</string>
+    <string name="menu_send">Отправить</string>
+    <string name="search">Поиск</string>
+    <string name="notification">Уведомления</string>
+    <string name="message">Сообщения</string>
+    <string name="start_auth">Авторизоваться</string>
+    <string name="selecting_instance">Выбранный инстанс</string>
+    <!--    <string name="welcome">Welcome</string>-->
+    <!--    <string name="san">-san</string>-->
+    <string name="following">Читаю</string>
+    <string name="follower">Читатели</string>
+    <string name="renote">Примечание</string>
+    <string name="quote_renote">Цитировать примечание</string>
+    <string name="discovery">Находки</string>
+    <string name="renote_was">Примечание</string>
+    <string name="input_custom_emoji">Emoji</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Мессенджер</string>
+    <string name="sync_header">Синхронизировать</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Ваша подпись</string>
+    <string name="reply_title">Отвечать по умолчанию</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Синхронизировать переодично</string>
+    <string name="attachment_title">Загрузка входящих вложений</string>
+    <string name="attachment_summary_on">Автоматическая загрузка вложений для входящих запросов</string>
+    <string name="attachment_summary_off">Загружайте вложения только по запросу вручную</string>
+    <string name="setting">Настройки</string>
+    <string name="nav_like">Понравилось</string>
+    <string name="nav_list">Списки</string>
+    <string name="nav_cloud">Диск</string>
+    <string name="nav_setting_tab">Перестановка табов</string>
+    <string name="add_search">Добавить поиск</string>
+    <string name="save_setting">Сохранить настройки</string>
+    <string name="tab_selected">Добавлено</string>
+    <string name="tab_selectable">Добавить снизу</string>
+    <string name="title_featured">Основные моменты</string>
+
+    <!--    <string name="create_folder">Create folder</string>-->
+    <string name="add_account">Добавить аккаунт</string>
+    <string name="post">Публикация</string>
+    <string name="please_speak">Что в ваших мыслях?</string>
+    <string name="open">Открыть</string>
+    <string name="multiple_answer">Ответить нескольким</string>
+    <string name="add_choice">Добавить ответ</string>
+    <string name="cw_hint">Добавить текст (опционально)</string>
+    <string name="show_reply">Показывать ответы</string>
+    <string name="show_conversation">Показать сообщения</string>
+    <string name="copy_url">Скопировать URL</string>
+    <string name="copy_content">Скоприровать контент</string>
+    <string name="show_detail">Детали</string>
+    <string name="favorite">Нравится</string>
+    <string name="remove_favorite">Удалить все, что мне нравится :(</string>
+    <string name="remove">Удалить</string>
+
+    <string name="pin">Закрепить</string>
+    <string name="media">Медиа</string>
+    <string name="follow">Следовать</string>
+
+    <string name="include_local_renotes">Show local renotes on the timeline</string>
+    <string name="include_renoted_my_notes">Show renotes of your notes on the timeline</string>
+    <string name="include_my_renotes">Show your renotes on the timeline</string>
+    <string name="auto_load_timeline">Load timeline automatically</string>
+    <string name="timeline">Timeline</string>
+
+    <string name="capture_note_when_stopped" tools:ignore="Typos">Look for notes notes when the instance\'s server is stopped</string>
+    <string name="auto_load_when_stopped" tools:ignore="Typos">Automatically look for notes notes when the instance\'s server is stopped</string>
+    <string name="sync">Sync</string>
+
+    <string name="movement">Syncing</string>
+    <string name="remove_note">Delete notes</string>
+
+    <string name="hide_removed_note">Hide deleted notes</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_white">White</string>
+    <string name="theme_black">AMOLED</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_bread">Pancake</string>
+
+    <string name="title_activity_media">MediaActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="sensitive_content">Sensitive content</string>
+
+    <string name="thumbnail">Thumbnail</string>
+    <string name="play_media">Play</string>
+    <string name="avataricon">avatarIcon</string>
+    <string name="reaction">Reaction</string>
+    <string name="followed_by">Followed by %s</string>
+    <string name="replied_by">Reply from %s</string>
+    <string name="quoted_by">Quoted by %s</string>
+    <string name="voted_by">poll voted in by %s</string>
+    <string name="mention_by">mentioned by %s</string>
+    <string name="reacted_by">reaction sent by %s</string>
+    <string name="renoted_by">renoted by %s</string>
+
+    <string name="input_message">What\'s up?</string>
+
+    <string name="manifest_user_name_pattern">"@"\w([\w-]*\w)?(?:@[\w.\-]+\w)?</string>
+    <string name="followee_state">Followed</string>
+    <string name="mute">Mute</string>
+    <string name="block">Block</string>
+    <string name="unmute">Unmute</string>
+    <string name="unblock">Unblock</string>
+
+    <string name="add_to_tab">Add to tab</string>
+
+    <string name="detail">Detail</string>
+
+    <string name="instance_domain">Instance URL</string>
+    <string name="sign_in">Login</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_out">Logout</string>
+    <string name="token">Token</string>
+
+    <string name="add_app">Add app</string>
+    <string name="selected_account">Selected account</string>
+    <string name="selected_app">Selected app</string>
+    <string name="custom_app">Custom app</string>
+
+    <string name="custom_app_name">App name</string>
+    <string name="custom_app_description">Application overview</string>
+
+    <string name="your_app_name">Custom app name</string>
+    <string name="description_of_app_description">Displayed during authentication</string>
+    <string name="create">Create</string>
+
+    <string name="auth_failed">Failed</string>
+    <string name="expired">Expired</string>
+
+    <string name="auth_required">Authentication required</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="invalid_pw_id">Invalid password/ID</string>
+
+    <string name="auth">Authentication</string>
+
+    <string name="often_use">Often use</string>
+    <string name="all">All</string>
+
+    <string name="visibility_public">Public</string>
+    <string name="visibility_home">Home</string>
+    <string name="visibility_follower">Followers only</string>
+    <string name="visibility_specified">Direct</string>
+    <string name="visibility_public_local_only">Public (local only)</string>
+    <string name="visibility_home_local_only">Home (local only)</string>
+    <string name="visibility_follower_local_only">Followers only (local only)</string>
+
+    <string name="show">Show</string>
+    <string name="user_list">User list</string>
+    <string name="update_user_list">Edit list</string>
+    <string name="add_user">Add user</string>
+    <string name="list_name">List name</string>
+    <string name="create_user_list">Create list</string>
+    <string name="at_mark">\@</string>
+
+    <string name="host">Host</string>
+    <string name="select_user">Select user</string>
+    <string name="selecting_users">Selecting user</string>
+    <string name="https">https://</string>
+    <string name="conversation">Conversation</string>
+    <string name="add_address">Add address</string>
+
+    <string name="indefinite_period">Indefinite period</string>
+    <string name="date_and_time_specification">Specific date and time</string>
+
+    <string name="future">Future</string>
+    <string name="now">Now</string>
+    <string name="year_ago">YR</string>
+    <string name="month_ago">MOS</string>
+    <string name="date_ago">D</string>
+    <string name="hour_ago">HR</string>
+    <string name="minute_ago">MIN</string>
+    <string name="second_ago">S</string>
+
+    <string name="select_file">Select file</string>
+
+    <string name="network_error">Network error</string>
+
+    <!--    <string name="folder_name">Folder name</string>-->
+    <string name="selected">Selected</string>
+    <string name="more">More</string>
+
+    <string name="delete_and_edit">Delete and redraft</string>
+    <string name="license">License</string>
+    <string name="standard_reaction">Standard reaction</string>
+    <string name="set_the_reaction_displayed_in_the_reaction_picker">Set the reaction displayed in the reaction picker</string>
+    <string name="reaction_picker">Reaction picker</string>
+    <string name="list_picker">List picker</string>
+    <string name="simple_picker">Simple picker</string>
+    <string name="enter_reaction">Enter reaction</string>
+    <string name="click_to_delete_the_reaction">Tap to remove the reaction</string>
+    <string name="confirm_delete_reaction">Confirm reaction removal</string>
+    <string name="delete_reaction">Remove reaction</string>
+    <string name="user">User</string>
+    <string name="note_opacity">Note opacity</string>
+    <string name="transparent">Transparent</string>
+    <string name="opaque">Opaque</string>
+    <string name="background_image">Background image</string>
+    <string name="hide_bottom_navigation">Hide bottom menu</string>
+    <string name="user_name_as_default_display_name">Set username as default display name</string>
+    <string name="successfully_created_the_app">Successfully created the app</string>
+    <string name="continue_auth">Continue</string>
+
+    <string name="home_timeline">Home</string>
+    <string name="global_timeline">Global</string>
+    <string name="local_timeline">Local</string>
+    <string name="hybrid_timeline">Social</string>
+    <string name="mention">Mentions</string>
+    <string name="add_tab">Add tab</string>
+    <string name="list">Lists</string>
+    <string name="tag">Hashtags</string>
+    <string name="featured">Featured</string>
+    <string name="antenna">Antennas</string>
+    <string name="rename">Rename</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="update_timeline_in_background">Update timeline in background</string>
+
+    <string name="edit_tab_name">Edit tab name</string>
+
+    <string name="follow_request_accepted_by">Follow request accepted by %s</string>
+    <string name="poll_ended">Poll ended</string>
+    <string name="confirm_deletion">Confirm deletion</string>
+    <string name="name">name</string>
+    <string name="receiving_source">Receiving source</string>
+
+    <string name="all_notes">All notes</string>
+    <string name="notes_from_following_users">Notes from users you follow</string>
+    <string name="notes_from_specific_users">Notes from specific users</string>
+    <string name="notes_from_specific_list">Notes from specific list</string>
+    <string name="notes_from_users_in_the_specified_group">Notes from users in the specified group</string>
+    <string name="include_replies">Include replies</string>
+    <string name="keywords_to_receive">Keywords to receive</string>
+    <string name="keyword_input_method">Separate with spaces for AND condition. Separate with line breaks for OR.</string>
+    <string name="keywords_to_exclude">Keywords to exclude</string>
+    <string name="case_sensitive">Case sensitive</string>
+    <string name="notify_notes">Notify of new notes</string>
+    <string name="with_files">Filter only notes with file attached</string>
+    <string name="group">Group</string>
+    <string name="save">Save</string>
+    <string name="unrenote">Unrenote</string>
+    <string name="confirm_delete_and_edit_note_description">Are you sure you want to delete this note and edit it? You will lose all reactions, renotes and replies to it.</string>
+    <string name="via">через</string>
+    <string name="search_emojis">Search emojis</string>
+
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="explore_fediverse">Explore the Fediverse</string>
+    <string name="explore">Explore</string>
+    <string name="trending_users">Trending users</string>
+    <string name="users_with_recent_activity">Users with recent activity</string>
+    <string name="newly_joined_users">New users</string>
+    <string name="newly_discovered_users">Newly discovered users</string>
+    <string name="trending_tag">Trending hashtags</string>
+    <string name="save_draft">Save draft</string>
+    <string name="save_the_note_as_a_draft">Save the note as a draft</string>
+    <string name="draft_notes">Draft notes</string>
+    <string name="toggle_content_visibility">Toggle content visibility</string>
+    <string name="delete_draft_note">Delete draft note</string>
+    <string name="show_remotely">Display remotely</string>
+    <string name="incomplete_information_for_remote_user">Incomplete information for remote user</string>
+    <string name="local_only">Local only</string>
+    <string name="post_button_at_the_bottom">Place the post button at the bottom of the screen.</string>
+    <string name="please_again_to_finish">Press again to finish</string>
+
+    <string name="url_preview">URL preview</string>
+    <string name="summaly_server_url">Summaly server URL</string>
+    <string name="displayed_url_preview">Displayed URL preview</string>
+    <string name="preview_display_test">Preview display test</string>
+    <string name="test_url">Проверить адрес URL</string>
+    <string name="from_misskey_api">From Misskey API</string>
+    <string name="specify_summaly_server">Specify Summaly server</string>
+    <string name="use_app_implementation_deprecated">Use app implementation (deprecated)</string>
+
+    <string name="use_simple_editor">Использовать простой редактор</string>
+    <string name="retry">Повторить попытку</string>
+    <string name="failed_to_get_the_note">Ошибка получения записи</string>
+
+    <string name="timeout_error">Время и стекло</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="bot_error">Вы человек или кто?</string>
+    <string name="auth_error">Ошибка авторизации</string>
+    <string name="parameter_error">Ошибка параметра</string>
+    <string name="refresh">Обновление</string>
+
+    <string name="long_text">Collapsed automatically because it is too long(size:%d)</string>
+    <string name="show_more">Показать больше (Размер:%d)</string>
+    <string name="hide">Скрыть</string>
+
+    <string name="text_length_limit">Text length limit</string>
+    <string name="height_limit">Height limit</string>
+    <string name="disable_height_limit">Disable height limit</string>
+    <string name="returns_limit">Returns limit</string>
+    <string name="auto_note_folding">Automatic note folding</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="promotion">Promotion</string>
+    <string name="waiting_4_approval">Waaaiting for approval</string>
+    <!--    <string name="i_have_approved">Approved</string>-->
+    <!--    <string name="waiting_4_u_to_approve">Waiting for you to approve</string>-->
+    <string name="learn_note_visibility">Learn note visibility</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="follow_requested_by">Receive follow requested by %s</string>
+    <string name="local">Local</string>
+    <string name="add_user_list">Add user list</string>
+    <string name="edit_note">Edit note</string>
+    <string name="gallery_favorite_button">Gallery favorite button</string>
+    <string name="popular_posts">Popular posts</string>
+    <string name="gallery">Gallery</string>
+    <string name="my_posts">My Posts</string>
+    <string name="my_liking">Liked</string>
+    <string name="websocket_error">WebSocket error</string>
+    <string name="connecting">Подключение к крупу…</string>
+    <string name="connected">Подключено!</string>
+    <string name="closing">Закрытие…</string>
+    <string name="closed">Закрыто</string>
+    <string name="create_gallery">Create gallery</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="pick_image">Выбрать изображение</string>
+    <string name="pick_image_from_device">Выбрать изображение с устройства</string>
+    <string name="pick_image_from_drive">Выбрать изображение с диска</string>
+    <string name="successfully_created_note">Запись сделана успешно</string>
+    <string name="note_creation_failure">Note creation failure</string>
+    <string name="sensitive">Sensitive</string>
+    <string name="request_follow">%s wants to follow to you</string>
+
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="follow_approval_pending">Follow approval pending</string>
+    <string name="request_follow_from_u">Request follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="unknown_notification">Unknown notification</string>
+    <string name="unknown_notification_msg" formatted="false">Unknown notification. Please report the screenshot to the developer. notificationId:%s, type:%s, senderID: %s, </string>
+
+    <string name="translated_from_s">Translated from %s: \n</string>
+    <string name="error_s">Error %s</string>
+    <string name="translate">Translate</string>
+    <string name="report">Пожаловаться Селестии</string>
+    <string name="send">Отправить</string>
+    <string name="successful_report">Вы успешно настучали! +10 кармы</string>
+    <string name="report_failed">Ошибка в доносе!</string>
+    <string name="mark_as_nsfw">Отметить как NSFW</string>
+    <string name="undo_nsfw">Убрать из NSFW</string>
+    <string name="cancel">Отменить</string>
+    <string name="remove_attachment">Remove attachment</string>
+    <string name="warning_s">Warning:%s</string>
+    <string name="reservation_at">Post date and time</string>
+    <string name="warning_reservation_msg">May be posted at different times</string>
+    <string name="create_mention">Create mention</string>
+    <string name="change_nickname">Change nickname</string>
+    <string name="nickname">Nickname</string>
+    <string name="delete_nickname">Delete nickname</string>
+    <string name="suggested_emojis">Suggested Emojis</string>
+    <string name="the_remote_emoji_does_not_exist_in_this_instance">The remote emoji does not exist in this instance.</string>
+    <string name="view_in_browser">View in browser</string>
+    <string name="channel">Channel</string>
+
+    <string name="animation">Animation</string>
+    <string name="avatar_icon_animation">Avatar icon animation</string>
+    <string name="security_setting">Security</string>
+    <string name="send_a_crash_report">Send a crash report</string>
+    <string name="crash_reports_are_useful_for_development">Crash reports are useful for development.</string>
+    <string name="agree">Agree</string>
+    <string name="enable_google_analytics">Enable Google Analytics</string>
+    <string name="consent_to_collect_behavior_history">Consent to collect behavior history</string>
+    <string name="consent_to_collect_behavior_history_message">Behavior history is collected by Google Analytics and is useful for development.</string>
+    <string name="disagree">Disagree</string>
+    <string name="search_custom_emojis">Search Custom Emojis…</string>
+    <string name="notification_group_invited_message">You\'ve been invited to a group: %s</string>
+
+</resources>

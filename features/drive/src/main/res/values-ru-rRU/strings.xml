@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="undo_nsfw">Отменить NSFW</string>
+    <string name="file_deletion_confirmation">Подтверждение удаления файла</string>
+    <string name="cancel">Отменить</string>
+    <string name="do_u_want_2_delete_s">Вы уверены, что хотите удалить %s?</string>
+    <string name="mark_as_nsfw">Отметить NSFW</string>
+    <string name="delete">Удалить</string>
+    <string name="edit_caption">Изменить заголовок</string>
+    <string name="input_caption">Ввести заголовок</string>
+    <string name="save">Сохранить</string>
+    <string name="drive">Хранилище</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="create_folder">Создать папку</string>
+    <string name="folder_name">Имя папки</string>
+</resources>

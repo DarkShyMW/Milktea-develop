@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BronyFurry</string>
+    <string name="custom_app_name">BronyFurry</string>
+    <string name="https">https://</string>
+    <string name="san">-сан</string>
+    <string name="instance_domain">Адрес инстанса</string>
+    <string name="successfully_created_the_app">Приложение успешно создано!</string>
+    <string name="warning_s">Предупреждение: %s</string>
+    <string name="error_s">Ошибка: %s</string>
+    <string name="continue_auth">Далее</string>
+    <string name="copied_to_clipboard">Скопировано в буфер</string>
+    <string name="auth">Авторизация</string>
+    <string name="waiting_4_u_to_approve">Ожидает вашего одобрения</string>
+    <string name="i_have_approved">Одобрен</string>
+    <string name="waiting_4_approval">Ожидание одобрения</string>
+    <string name="authentication_url">Адрес авторизации</string>
+    <string name="copy_the_url_of_the_authentication_destination_to_the_clipboard">Скопируйте URL-адрес назначения аутентификации в буфер обмена.</string>
+    <string name="welcome">"Добро пожаловать "</string>
+</resources>

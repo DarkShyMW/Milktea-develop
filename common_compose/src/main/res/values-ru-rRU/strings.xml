@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="show">показать</string>
+    <string name="undo_nsfw">Убрать отметку NSFW</string>
+    <string name="mark_as_nsfw">Отметить как NSFW</string>
+    <string name="remove_attachment">Удаленное подключение</string>
+
+
+    <string name="future">будущее</string>
+    <string name="now">сейчас</string>
+    <string name="year_ago">год назад</string>
+    <string name="month_ago">месяц назад</string>
+    <string name="date_ago">день(Дней) назад</string>
+    <string name="hour_ago">час(-ов) назад</string>
+    <string name="minute_ago">минуту назад</string>
+    <string name="second_ago">секунд назад</string>
+</resources>

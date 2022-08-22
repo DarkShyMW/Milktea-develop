@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="n_people">%d людей</string>
+    <string name="n_posts">%d публикаций</string>
+    <string name="owned">Владелец</string>
+    <string name="channel">Канал</string>
+    <string name="following">Читаете</string>
+    <string name="follow">Читать</string>
+    <string name="unfollow">Отписаться</string>
+    <string name="featured">Рекомендуемые</string>
+</resources>

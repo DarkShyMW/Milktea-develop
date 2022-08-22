@@ -1,0 +1,38 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>ライト</item>
+        <item>ブラック</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>black</item>
+    </string-array>
+
+    <string-array name="deadline_choices">
+        <item>@string/indefinite_period</item>
+        <item>@string/date_and_time_specification</item>
+    </string-array>
+    <string-array name="reaction_picker_type">
+        <item>@string/list_picker</item>
+        <item>@string/simple_picker</item>
+    </string-array>
+
+    <string-array name="receiving_source_type">
+        <item>@string/all_notes</item>
+        <item>@string/notes_from_following_users</item>
+        <item>@string/notes_from_specific_users</item>
+        <item>@string/notes_from_specific_list</item>
+        <item>@string/notes_from_users_in_the_specified_group</item>
+    </string-array>
+</resources>

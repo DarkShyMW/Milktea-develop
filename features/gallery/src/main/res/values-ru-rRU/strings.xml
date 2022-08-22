@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sensitive_content">Чувствительный контент</string>
+    <string name="pick_image">Выбрать картинку</string>
+    <string name="pick_image_from_device">Загрузить картинку с устройства</string>
+    <string name="pick_image_from_drive">Загрузить картинку с сервера</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="save">Спасить и Сохранить</string>
+    <string name="gallery">Галерея</string>
+    <string name="my_liking">Мне нравится</string>
+    <string name="my_posts">Мои публикации</string>
+    <string name="create_gallery">Создать галерею</string>
+</resources>

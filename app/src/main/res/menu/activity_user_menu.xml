@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/nav_add_to_tab"
+            android:title="@string/add_to_tab"
+            android:icon="@drawable/ic_add_black_24dp"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/mute"
+            android:title="@string/mute"
+            android:icon="@drawable/ic_visibility_off_black_24dp" />
+    <item
+            android:id="@+id/unmute"
+            android:title="@string/unmute"
+        />
+    <item
+            android:id="@+id/block"
+            android:title="@string/block"
+        />
+    <item
+            android:id="@+id/unblock"
+            android:title="@string/unblock"
+            />
+    <item
+            android:id="@+id/add_list"
+            android:title="@string/add_to_list"/>
+    <item
+            android:id="@+id/report_user"
+            android:title="@string/report"/>
+    <item
+            android:id="@+id/share"
+            android:title="@string/share"/>
+</menu>
